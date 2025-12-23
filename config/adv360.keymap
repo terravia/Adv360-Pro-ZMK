@@ -21,6 +21,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        volume_up {
+            bindings = <&none>;
+            key-positions = <36 53>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
