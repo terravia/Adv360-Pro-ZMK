@@ -104,4 +104,13 @@
             status = "reserved";
         };
     };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        functions {
+            if-layers = <2>;
+            then-layer = <2>;
+        };
+    };
 };
